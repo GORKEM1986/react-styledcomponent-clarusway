@@ -2,7 +2,6 @@ import Container from "./styled/Container.styled";
 import FooterStyles from "./styled/FooterStyles.styled";
 import { RiFacebookCircleLine } from "react-icons/ri";
 import { AiFillLinkedin } from "react-icons/ai";
-import A from "styled-components";
 
 const Footer = () => {
   return (
@@ -18,13 +17,13 @@ const Footer = () => {
         <div>
           <ul>
             <li>
-              <A href="#">About</A>
+              <a href="/">About</a>
             </li>
             <li>
-              <A href="#">What We Do?</A>
+              <a href="/">What We Do?</a>
             </li>
             <li>
-              <A href="#">FAQ</A>
+              <a href="/">FAQ</a>
             </li>
           </ul>
         </div>
@@ -32,13 +31,13 @@ const Footer = () => {
         <div>
           <ul>
             <li>
-              <A href="#">Career</A>
+              <a href="/">Career</a>
             </li>
             <li>
-              <A href="#">Blog</A>
+              <a href="/">Blog</a>
             </li>
             <li>
-              <A href="#">Contact Us</A>
+              <a href="/">Contact Us</a>
             </li>
           </ul>
         </div>
